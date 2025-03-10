@@ -1,12 +1,37 @@
-# React + Vite
+# PTBOX OSINT Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend part of the project for visualizing OSINT scan results. Built with React and interacts with the backend via API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+1. [Project Description](#project-description)
+2. [How to Run the Project](#how-to-run-the-project)
+   - [Prerequisites](#prerequisites)
+   - [Steps to Run](#steps-to-run)
+3. [Backend Repository](#backend-repository)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Description
+
+This project is the frontend for visualizing OSINT scan results provided by the backend. It is built with React and uses Axios for HTTP requests.
+
+---
+
+## How to Run the Project
+- The docker-compose.yml file is in the BE repo. Update it with the correct relative path to your FE Dockerfile:
+- https://github.com/QwertySudo666/ptbox-osint-be
+
+### Prerequisites
+
+Before running, ensure you have installed:
+- Docker
+- Docker Compose
+
+### Steps to Run
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/ptbox-osint-frontend.git
+   cd ptbox-osint-frontend
